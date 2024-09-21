@@ -1,4 +1,4 @@
-# Module 12 Report Template
+# Credit Risk Classification Report
 
 ## Overview of the Analysis
 
@@ -7,7 +7,6 @@
 * The outcome we aim to predict is whether a loan is high-risk or not.
 * Divided into training and testing sets using train_test_split. Chose logistic regression to classify loan risk. Trained the logistic regression model on the training data. Predicted loan status using the test data. Assessed model accuracy,     
   precision, and recall using confusion matrix and classification report.
-* Briefly touch on any methods you used (e.g., `LogisticRegression`, or any other algorithms).
 
 ## Results
 
@@ -19,9 +18,4 @@
 
 ## Summary
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
-
-* Which one seems to perform best? How do you know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
-
-If you do not recommend any of the models, please justify your reasoning.
+The Logistic Regression model achieved 99% accuracy with strong recall (94%) for high-risk loans, making it reliable in identifying risky cases. Although the precision for high-risk loans is 84%, the model’s high recall makes it effective for minimizing missed risks. I recommend the model due to its accuracy and ability to identify high-risk loans effectively.
