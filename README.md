@@ -11,9 +11,6 @@
 
 ## Results
 
-Using bulleted lists, describe the accuracy scores and the precision and recall scores of all machine learning models.
-
-* Machine Learning Model 1:
 - Accuracy: The model achieved an overall accuracy of 99%, meaning that 99% of the predictions made by the model were correct.
 
 - Precision: The precision score is 1.00, indicating that every loan predicted as "Healthy Loan" by the model was indeed healthy. The precision score is 0.84, meaning that 84% of the loans predicted as "High-Risk" were actually high-risk, with 16% being false positives.
